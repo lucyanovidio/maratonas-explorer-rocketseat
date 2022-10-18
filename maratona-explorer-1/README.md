@@ -1,6 +1,6 @@
 # Maratona Explorer 1 🔮
 
-![Imagem do projeto](./assets/image/resultado.png)
+![Imagem do projeto](./image/resultado.png)
 > <a href="https://lucyanovidio.github.io/maratonas-explorer-rocketseat/maratona-explorer-1/">Acesse aqui 🚀</a>
 
 ## 🔮 Descubra seu destino!
