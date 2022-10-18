@@ -1,0 +1,94 @@
+/* GERAL */
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; nem precisou */
+}
+
+body {
+  background-color: #ffedd5;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+/* FONTS */
+h1,
+h2,
+h3,
+.price {
+  font-family: 'Roboto Serif';
+  color: #2d2c2a;
+  text-transform: uppercase;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  margin-block: 32px;
+}
+
+header,
+section {
+  max-width: 300px;
+  margin-inline: auto;
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 33px;
+
+  margin-bottom: 4px;
+}
+
+h1 span {
+  color: #995000;
+}
+
+header p {
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* SECTION */
+section {
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+  background-color: #fed7aa;
+  padding-block: 8px;
+
+  margin-bottom: 24px;
+}
+
+/* LIST */
+ul li {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+ul li .details {
+  width: 240px;
+}
+
+ul li h3,
+ul li strong {
+  font-size: 16px;
+  line-height: 19px;
+
+  margin-bottom: 8px;
+}
+
+ul li p.description {
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.6);
+}

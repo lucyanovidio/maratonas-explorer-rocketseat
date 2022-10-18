@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: calc(100vh - 100px);
+  
+  background-image: linear-gradient(
+    180deg,
+    rgb(0, 34, 128) 30%,
+    rgb(0, 0, 0) 100%
+  );
+
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  color: white;
+}
+
+main {
+  width: 80%;
+  max-width: 400px;
+
+  margin-top: 100px;
+  margin-inline: auto;
+}
+
+main h1 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+
+  opacity: 0.9;
+}
+
+main p {
+  margin-bottom: 40px;
+  opacity: 0.7;
+}
+
+main p span {
+  font-weight: bold;
+}
+
+input,
+button {
+  display: block;
+  width: 100%;
+
+  padding: 20px;
+ 
+  border: none;
+  border-radius: 4px;
+
+  font-family: 'DM Sans', sans-serif;
+  font-size: 20px;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+button {
+  color: white;
+
+  background-color: purple;
+  animation: button 9s infinite;
+
+  transition: filter 0.2s;
+}
+
+button:hover {
+  filter: brightness(1.2);
+  cursor: pointer;
+}
+
+@keyframes button {
+  50% {
+    top: 0px;
+    left: 0px;
+    background: #0202a0;
+  }
+  25% {
+    top: 0px;
+    left: 0px;
+    background: purple;
+  }
+  25% {
+    top: 0px;
+    left: 0px;
+    background: #e000ce;
+  }
+}
+
+#resposta {
+  margin-top: 30px;
+  transition: opacity 1s;
+}
+
+#resposta div {
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.9;
+  margin-bottom: 10px;
+}
