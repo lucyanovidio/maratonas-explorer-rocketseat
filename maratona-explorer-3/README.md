@@ -5,7 +5,7 @@
 
 ## 💻 Sobre
 
-Na maratona 3 desenvolvemos uma página de cardápio para um restauirante fictício, no intuito de praticarmos conceitos básicos.
+Na maratona 3 desenvolvemos uma página de cardápio para um restaurante fictício, o *RocketCoffee*, no intuito de praticarmos conceitos básicos.
 
 ## 🧠 Tecnologias
 
@@ -22,7 +22,6 @@ A partir dos conhecimentos obtidos neste evento, desenvolvi o projeto ***Roll th
 +  <a href="https://lucyanovidio.github.io/roll-the-dice">Deploy</a>
 --->
 <br>
-
 
 ---
 
